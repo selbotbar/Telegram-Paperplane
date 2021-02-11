@@ -70,7 +70,7 @@ async def kang(event):
             emoji = "🤔"
 
     packname = f"a{user.id}_by_{pack_username}_{number}{'_anim' if is_anim else ''}"
-    packtitle = (f"@{user.username or user.first_name}'s Paperplane Pack "
+    packtitle = (f"@{user.username or user.first_name}' - Naklejki "
                 f"{number}{' animated' if is_anim else ''}")
     response = urllib.request.urlopen(
             urllib.request.Request(f'http://t.me/addstickers/{packname}'))
