@@ -1,4 +1,4 @@
-FROM zakaryan2004/userbot_docker:latest
+FROM bartixxx32/bartixxxuserbotbase
 
 ENV PATH="/app/bin:$PATH"
 WORKDIR /app
